@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 3,
+  "name": "ytCleaner",
+  "version": "1.0",
+  "description": "Removes garbage from various areas of youtube, i.e. recommended videos, comments, some ads, shorts",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/watch*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
