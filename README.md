@@ -4,9 +4,9 @@ Browser extension that removes as many unnecessary distractions as possible from
 #### *Works on Chromium-based web browsers
 
 ## How to install
-#### This is not currently on the chrome web store, so you must do the following:
+#### This is not currently published on the chrome web store or adjacent, so you must do the following:
 - Create a folder and add `manifest.json` and `content.js` to it
-- On Chrome, go to `chrome://extensions`
+- On your browser, go to your extension manager, i.e. `chrome://extensions` on chrome, `brave://extensions` on brave
 - Enable developer mode in the top right
 - Select "Load Unpacked" in the top left
 - Select your folder
