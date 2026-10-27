@@ -1,7 +1,7 @@
 ![ytCleaner](heading.svg)
 
 Browser extension that removes as many unnecessary distractions as possible from youtube. Removes garbage from various pages, i.e. recommended videos, comments, some ads, shorts.
-#### *Only tested on chrome as of v1.0
+#### *Works on Chromium-based web browsers
 
 ## How to install
 #### This is not currently on the chrome web store, so you must do the following:
