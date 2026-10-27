@@ -4,6 +4,11 @@
   "name": "ytCleaner",
   "version": "1.0",
   "description": "Removes garbage from various areas of youtube, i.e. recommended videos, comments, some ads, shorts",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": [
