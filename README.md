@@ -10,5 +10,5 @@ Browser extension that removes as many unnecessary distractions as possible from
 - Enable developer mode in the top right
 - Select "Load Unpacked" in the top left
 - Select your folder
-- Ensure the extension is enabled
-  *Note that node.js (or any javascript interpreter) is **not** required for this
+- Ensure the extension is enabled\
+ #### *Note that node.js (or any javascript interpreter) is **not** required for this
