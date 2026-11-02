@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <main class="popup-container">
+
+        <header class="header">
+            <div class="header-title">
+                <h1 id="ytCleaner">ytCleaner</h1>
+                <p>Settings</p>
+            </div>
+            <span class="version">v1.1</span>
+        </header>
+
+        <section class="settings-section">
+            <h2>General</h2>
+
+            <div class="setting-row">
+                <div class="setting-info">
+                    <span class="setting-name">Enable extension</span>
+                    <span class="setting-description" id="status">
+                        Loading...
+                    </span>
+                </div>
+
+                <label class="toggle">
+                    <input type="checkbox" id="enabled">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <span>ytCleaner v1.1 | 11/2026</span>
+        </footer>
+
+    </main>
+
+    <script src="popup.js"></script>
+</body>
+</html>
